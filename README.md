@@ -19,4 +19,5 @@ Installation
 4. (Optional) Change all instances of `webapp` to suit your app's name.
   * Rename webapp directory.
   * Change `webapp` in fabfile.py.
-  * Change `[Ww]ebapp` in settings.py.
+  * Change `webapp` in __init__.py.
+  * Change `Webapp` in settings.py.
