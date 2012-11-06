@@ -2,13 +2,12 @@ Flask scaffold
 ==============
 
 This is a simple skeleton project to help you get started quickly with Flask.
-It defines the directory structure, configuration and a convenient way of adding routes.
+It defines the directory structure and a convenient configuration setup.
 
 Requirements:
 
 * Flask
-* SQLAlchemy
-* Flask-SQLAlchemy
+* Fabric
 
 Installation
 ------------
@@ -19,7 +18,5 @@ Installation
    settings.py.
 4. (Optional) Change all instances of `webapp` to suit your app's name.
   * Rename webapp directory.
-  * Change `webapp` in runserver.py.
-  * Change `webapp` in routes.py.
-  * Change `webapp` in Makefile.
+  * Change `webapp` in fabfile.py.
   * Change `[Ww]ebapp` in settings.py.
